@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Handlee;
+}
+.ct-primary {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background: #fb8c00;
+    background-image: linear-gradient(rgba(245, 124, 0, 0.9), rgba(245, 124, 0, 0.9)), url(images/bgsketch.jpg);
+    background-size:  300px;
+}
+.ct-primary span {
+    color: #fff;
+    background: #000;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Bangers;
+    font-size: 40px;
+}
+.ct-secondary {
+    width: 100%}
+.tb-col {
+    float: left;
+    padding: 10px;
+}
+.tb-col {
+    width: 30%}
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+.column {
+    flex: 1;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 10px;
+    min-height: 200px;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.column:hover {
+    border-radius:  50px;
+}
+@media screen and (max-width:980px) {
+    .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%}
+}
+@media screen and (max-width:680px) {
+    .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+    }
+}
+.box {
+    display: flex;
+    width: 100%;
+    height: 8px;
+    margin: 5px 0 5px 0;
+}
+.box-sm {
+    height: 8px;
+    margin: 0;
+    flex-grow: 1;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.box-sm:hover {
+    flex-grow: 12;
+}
+.red {
+    background-color: #ff5852;
+}
+.orange {
+    background-color: #ff9000;
+}
+.yellow {
+    background-color: #ffd300;
+}
+.green {
+    background-color: #3dcd49;
+}
+.blue {
+    background-color: #0089d7;
+}
+.purple {
+    background-color: #9e44c4;
+}
+.social-icon:hover {
+    overflow: hidden;
+    border-radius:50%;
+    position: relative;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    transition: all 0.125s ease-in-out 0s;
+}
+footer {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Nunito;
+}
